@@ -8,7 +8,7 @@ La información es obtenida de la API OpenWeather.
 
 El proyecto fue realizado con Vite (React).
 
-<img src="https://github.com/dodo220685/appClimaReact_rd/blob/main/src/assets/psAppClima.png" alt="Captura APP">
+<img src="https://github.com/dodo220685/appViteClima/blob/main/src/assets/psAppClima.png" alt="Captura APP">
 
 
 ## Funcionalidad
