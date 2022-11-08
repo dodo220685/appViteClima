@@ -1,0 +1,57 @@
+body{
+  /* background-color: #2F3544; */
+  background-color: #778da9;
+}
+
+.App {
+  text-align: center;
+}
+
+.input-group {
+  width: 60%;
+}
+
+.card{
+  max-width: 80%;
+}
+
+.card-title{
+  position: absolute;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+.card-date{
+  position:absolute;
+  padding-left: 20px;
+  margin-top: 80px
+
+  }
+  .card-date2{
+    position:absolute;
+    padding-left: 20px;
+    margin-top: 110px
+  
+    }
+
+.card-temp{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 380px;
+  font-size: 50px;
+}
+
+.card-desc{
+  position: absolute;
+  padding-left: 20px;
+  margin-top: 340px;
+}
+.imagen{
+  size: 100px;
+}
+
+.card-text:hover{
+  transform: translateX(5px);
+  color: #f77f00;
+  
+}
