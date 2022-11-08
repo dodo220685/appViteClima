@@ -11,8 +11,6 @@ El proyecto fue realizado con Vite (React).
 <img src="https://github.com/dodo220685/appClimaReact_rd/blob/main/src/assets/psAppClima.png" alt="Captura APP">
 
 
-
-
 ## Funcionalidad
 
  - Consultar el clima por el nombre de ciudad.
@@ -52,3 +50,4 @@ Descargar el proyecto e inicialiarlo de la siguiente manera en el localhost.
 
 - npm run dev
 ```
+
