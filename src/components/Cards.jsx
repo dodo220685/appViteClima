@@ -54,7 +54,7 @@ const Card = ({loadingData, showData, clima, forecast}) => {
                         <div className="card mb-3 mx-auto bg-dark text-light">
                             <div className="row g-0">
                                 <div className="col-md-4">
-                                    <h2 className="card-title">{clima.name}</h2>
+                                    <h2 className="card-title">{clima.name}, {clima.sys.country}</h2>
                                     <h4 className="card-date">Fecha: {date}</h4>
                                     <h4 className="card-date2">Hora Local: {cityTime[0]}</h4>
                                     <h1 className="card-temp">{(clima.main.temp - 273.15).toFixed(1)} °C</h1>
@@ -63,7 +63,7 @@ const Card = ({loadingData, showData, clima, forecast}) => {
                                         {clima.weather[0].description}
                                     </p>
 
-                                    <img src="https://images.pexels.com/photos/4719349/pexels-photo-4719349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" className="img-fluid rounded-start imagen"/>
+                                    <img src="https://images.pexels.com/photos/1853542/pexels-photo-1853542.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="img-fluid rounded-start imagen"/>
 
 
 
