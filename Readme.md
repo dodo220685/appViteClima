@@ -29,11 +29,6 @@ https://openweathermap.org/
 Es necesario registrarse y usar su propia API KEY
 
 
-## Appendix
-
-Any additional information goes here
-
-
 ## Autor
 
 - Rodrigo do Eyo - rodrigo@flexired.com.ar
