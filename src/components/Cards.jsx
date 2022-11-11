@@ -51,7 +51,7 @@ const Card = ({loadingData, showData, clima, forecast}) => {
                 showData === true ? (
 
                     <div className="container">
-                        <div className="card mb-3 mx-auto bg-dark text-light">
+                        <div className="card mb-3 mx-auto text-light colorcard">
                             <div className="row g-0">
                                 <div className="col-md-4">
                                     <h2 className="card-title">{clima.name}, {clima.sys.country}</h2>
@@ -63,7 +63,7 @@ const Card = ({loadingData, showData, clima, forecast}) => {
                                         {clima.weather[0].description}
                                     </p>
 
-                                    <img src="https://images.pexels.com/photos/1853542/pexels-photo-1853542.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="img-fluid rounded-start imagen"/>
+                                    <img src="https://images.pexels.com/photos/3783385/pexels-photo-3783385.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="img-fluid rounded-start imagen"/>
 
 
 

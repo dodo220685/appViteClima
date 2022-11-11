@@ -1,6 +1,6 @@
 body{
-  /* background-color: #2F3544; */
-  background-color: #22223b;
+  background-color: #0096c7
+  /* background-color: #22223b; */
 }
 
 .App {
@@ -9,10 +9,16 @@ body{
 
 .input-group {
   width: 60%;
+
 }
 
+.barranav{
+  background-color: #023e8a;
+
+}
 .card{
   max-width: 80%;
+  background-color: #023e8a;
 }
 
 .card-title{
@@ -37,14 +43,14 @@ body{
 .card-temp{
   position: absolute;
   padding-left: 20px;
-  margin-top: 380px;
+  margin-top: 310px;
   font-size: 50px;
 }
 
 .card-desc{
   position: absolute;
   padding-left: 20px;
-  margin-top: 340px;
+  margin-top: 280px;
 }
 .imagen{
   size: 100px;
@@ -52,6 +58,7 @@ body{
 
 .card-text:hover{
   transform: translateX(5px);
-  color: #f77f00;
+  /* color: #f77f00; */
+  color: #f48c06;
   
 }
